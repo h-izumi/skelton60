@@ -46,6 +46,7 @@ end
 
 group :test do
   gem 'database_rewinder'
+  gem 'simplecov', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
