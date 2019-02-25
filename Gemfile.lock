@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/h-izumi/annotate_models.git
+  revision: b249e8ab01fa61a1e41a23c3a7b47e6a4688bf88
+  ref: b249e8a
+  specs:
+    annotate (2.7.3)
+      activerecord (>= 3.2, < 7.0)
+      rake (>= 10.4, < 13.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -233,6 +242,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate!
   awesome_print
   better_errors
   binding_of_caller
