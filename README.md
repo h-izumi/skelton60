@@ -1,24 +1,62 @@
-# README
+# skelton60
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My Ruby on Rails 6.0 boilerplate.
 
-Things you may want to cover:
+* Ruby 2.6.1
+* Ruby on Rails 6.0.0.beta1
+  * `rails new . -d=mysql --skip-turbolinks -T --webpack=react`
+* Webpacker
+  * with React
+* Haml
+  * with [Hamlit](https://github.com/k0kubun/hamlit)
+* dotenv
+* Bootstrap 4 with **no jQuery**
+  * with [bootstrap.native](https://thednp.github.io/bootstrap.native/)
+* Font Awesome 5
+* RSpec
+* Brakeman
+* rails_best_practices
+* etc...
 
-* Ruby version
+## How to use
 
-* System dependencies
+Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton60/master/setup.rb):
 
-* Configuration
+```shell
+cd /path/to/app-parent
+curl -L https://raw.githubusercontent.com/h-izumi/skelton60/master/setup.rb | APP_NAME="app-name" ruby
+```
 
-* Database creation
+* Set `NO_COMMIT=true` to skip `git commit`.
 
-* Database initialization
+```shell
+curl -L https://raw.githubusercontent.com/h-izumi/skelton60/master/setup.rb | APP_NAME="app-name" NO_COMMIT=true ruby
+```
 
-* How to run the test suite
+or Manually:
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+cd /path/to/app-parent
+curl -L -o skelton60.zip https://github.com/h-izumi/skelton60/archive/master.zip
+unzip skelton60.zip
+mv skelton60-master app-name
+rm skelton60.zip
+cd app-name
+find . -type f -print0 | xargs -0 sed -i -e 's/SKELTON60/APP_NAME/g'
+find . -type f -print0 | xargs -0 sed -i -e 's/skelton60/app_name/g'
+find . -type f -print0 | xargs -0 sed -i -e 's/Skelton60/AppName/g'
+rm README.md
+rm LICENSE.txt
+rm setup.rb
+git init
+git add .
+git commit -m "initial."
+```
 
-* Deployment instructions
+If use on macOS, you should set argument ` ''` after `sed -i`, like `sed -i '' -e`.
 
-* ...
+## License
+
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed).
+
+You probably should remove `LICENSE.txt` file when use this repo on your work.
