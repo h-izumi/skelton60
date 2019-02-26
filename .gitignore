@@ -13,24 +13,26 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-/spec/examples.txt
 
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
 
 /public/assets
+/public/packs
+/public/packs-test
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-/public/packs
-/public/packs-test
+
 /node_modules
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
 
+/spec/examples.txt
 /coverage
 
 # Ignore local configurations.
