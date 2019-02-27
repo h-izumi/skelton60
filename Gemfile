@@ -12,6 +12,8 @@ gem 'rails', '6.0.0.beta1'
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+# Use Haml
+gem 'hamlit-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
