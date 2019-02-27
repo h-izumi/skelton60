@@ -6,3 +6,5 @@
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
 require("channels")
+require("popper.js")
+require("bootstrap.native/dist/bootstrap-native-v4")
