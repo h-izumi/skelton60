@@ -13,6 +13,7 @@ My Ruby on Rails 6.0 boilerplate.
 * Bootstrap 4 with **no jQuery**
   * with [bootstrap.native](https://thednp.github.io/bootstrap.native/)
 * Font Awesome 5
+* activerecord-session_store
 * RSpec
 * Brakeman
 * rails_best_practices
