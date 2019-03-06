@@ -18,3 +18,10 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+set :environment, ENV['RAILS_ENV'] || 'production'
+
+every 1.day, at: '5am' do
+  # activerecord-session_store
+  rake 'db:sessions:trim'
+end
