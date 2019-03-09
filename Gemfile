@@ -38,6 +38,10 @@ gem 'activerecord-session_store'
 gem 'whenever', require: false
 
 gem 'rack-dev-mark'
+gem 'rack-mini-profiler'
+gem 'memory_profiler'
+gem 'flamegraph'
+gem 'stackprof'
 
 gem 'pry-rails'
 gem 'pry-coolline'
