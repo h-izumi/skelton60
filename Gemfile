@@ -18,6 +18,7 @@ gem 'hamlit-rails'
 gem 'sass-rails', '~> 5.0'
 # Use Bootstrap
 gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap_form', '>= 4.2.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '>= 4.0.0.rc.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
