@@ -15,6 +15,7 @@ My Ruby on Rails 6.0 boilerplate.
 * Font Awesome 5
 * activerecord-session_store
 * [rack-dev-mark](https://github.com/dtaniwaki/rack-dev-mark)
+* [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler)
 * RSpec
 * Brakeman
 * rails_best_practices
