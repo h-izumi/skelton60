@@ -64,4 +64,6 @@ Rails.application.configure do
     config.web_console.whitelisted_ips = ENV['TRUSTED_IP']
     BetterErrors::Middleware.allow_ip! ENV['TRUSTED_IP']
   end
+
+  config.rack_dev_mark.theme = [:title, Rack::DevMark::Theme::GithubForkRibbon.new(position: 'right')]
 end

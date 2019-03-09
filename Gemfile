@@ -37,6 +37,8 @@ gem 'activerecord-session_store'
 
 gem 'whenever', require: false
 
+gem 'rack-dev-mark'
+
 gem 'pry-rails'
 gem 'pry-coolline'
 gem 'pry-doc'
