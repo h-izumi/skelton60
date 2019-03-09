@@ -12,6 +12,7 @@ My Ruby on Rails 6.0 boilerplate.
 * dotenv
 * Bootstrap 4 with **no jQuery**
   * with [bootstrap.native](https://thednp.github.io/bootstrap.native/)
+  * with [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form)
 * Font Awesome 5
 * activerecord-session_store
 * [rack-dev-mark](https://github.com/dtaniwaki/rack-dev-mark)
