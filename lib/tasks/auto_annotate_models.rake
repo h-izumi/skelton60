@@ -42,7 +42,7 @@ if Rails.env.development?
       'format_markdown'           => 'false',
       'sort'                      => 'false',
       'force'                     => 'false',
-      'classified_sort'           => 'true',
+      'classified_sort'           => 'false',
       'trace'                     => 'false',
       'wrapper_open'              => nil,
       'wrapper_close'             => nil,
