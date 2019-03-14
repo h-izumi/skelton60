@@ -2,8 +2,8 @@
 
 My Ruby on Rails 6.0 boilerplate.
 
-* Ruby 2.6.1
-* Ruby on Rails 6.0.0.beta2
+* Ruby 2.6.2
+* Ruby on Rails 6.0.0.beta3
   * `rails new . -d=mysql --skip-turbolinks -T --webpack=react`
 * Webpacker
   * with React
