@@ -82,5 +82,13 @@ group :test do
   gem 'simplecov', require: false
 end
 
+# Use Capistrano for deployment
+group :development do
+  gem 'capistrano', '~> 3.11', require: false
+  gem 'capistrano-rails', '~> 1.4', require: false
+  gem 'capistrano-passenger'
+  # gem 'capistrano-git-copy', require: false
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

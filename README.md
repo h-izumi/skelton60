@@ -20,6 +20,7 @@ My Ruby on Rails 6.0 boilerplate.
 * RSpec
 * Brakeman
 * rails_best_practices
+* Capistrano 3
 * etc...
 
 ## How to use
