@@ -15,7 +15,7 @@ gem 'puma', '~> 3.11'
 # Use Haml
 gem 'hamlit-rails'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '6.0.0.beta3'
 # Use Bootstrap
 gem 'bootstrap', '~> 4.3.1'
 gem 'bootstrap_form', '>= 4.2.0'
