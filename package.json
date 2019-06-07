@@ -12,8 +12,8 @@
     "bootstrap.native": "^2.0.25",
     "popper.js": "^1.14.7",
     "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "version": "0.1.0",
   "devDependencies": {
