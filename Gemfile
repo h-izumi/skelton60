@@ -73,8 +73,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'spring-commands-rspec'
 
-  # Current released version does not support rails 6.
-  gem 'annotate', github: 'h-izumi/annotate_models', ref: 'b249e8a'
+  gem 'annotate'
 end
 
 group :test do
