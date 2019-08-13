@@ -14,6 +14,7 @@ My Ruby on Rails 6.0 boilerplate.
   * with [bootstrap.native](https://thednp.github.io/bootstrap.native/)
   * with [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form)
 * Font Awesome 5
+* [ActiveDecorator](https://github.com/amatsuda/active_decorator)
 * activerecord-session_store
 * [rack-dev-mark](https://github.com/dtaniwaki/rack-dev-mark)
 * [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler)
